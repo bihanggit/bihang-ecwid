@@ -1,4 +1,4 @@
-Oklink plugin for Ecwid using the oklink.com service.
+Bihang plugin for Ecwid using the bihang.com service.
 
 
 
@@ -7,11 +7,11 @@ Instructions
 In config.php:
 - Set $storeURL to the URL of your store's homepage.
 - Set $storeID to your ecwid store ID found in the bottom-right of the Ecwid control panel.
-- Set $oklinkURL to the URL of the oklink/ folder which you extracted from this plugin.
-- Set $apiKey and $apiSecret from [oklink.com](https://www.oklink.com/open/index.do "oklink.com")
+- Set $bihangURL to the URL of the bihang/ folder which you extracted from this plugin.
+- Set $apiKey and $apiSecret from [bihang.com](https://www.bihang.com/open/index.do "bihang.com")
 	
 In your Ecwid control panel:
-- Click System Settings > Payment, then click Authorize.  Rename this to "Oklink" or whatever you'd prefer.  
+- Click System Settings > Payment, then click Authorize.  Rename this to "Bihang" or whatever you'd prefer.  
 - Change Payment Processor to Credit Card: Authorize.net SIM
 - Click Account Details
 - API Login ID: choose something random here and copy it to config.php's $login variable.

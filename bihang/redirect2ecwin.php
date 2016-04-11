@@ -2,9 +2,9 @@
 
 require 'config.php';
 
-require dirname(__FILE__).'/lib/Oklink.php';
+require dirname(__FILE__).'/lib/Bihang.php';
 
-$client = Oklink::withApiKey($apiKey, $apiSecret);
+$client = Bihang::withApiKey($apiKey, $apiSecret);
 
 if( $client->checkCallback() ){
 	$post = json_decode(file_get_contents('php://input'),true);
